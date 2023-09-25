@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "mylib")(type "KiCad")(uri "${KIPRJMOD}/../mylib.kicad_sym")(options "")(descr ""))
+  (lib (name "mylib")(type "KiCad")(uri "${KIPRJMOD}/../symbols/mylib.kicad_sym")(options "")(descr ""))
+  (lib (name "ASMB-UTF0-0D20B")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ASMB-UTF0-0D20B.kicad_sym")(options "")(descr ""))
+  (lib (name "ADALM2000_Connector")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ADALM2000_Connector.kicad_sym")(options "")(descr ""))
 )
