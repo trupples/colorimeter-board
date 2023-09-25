@@ -1799,11 +1799,6 @@
       (net 15 "unconnected-(IC1-Y-Pad15)") (pinfunction "Y") (pintype "bidirectional") (tstamp 9e4dd619-1e50-4284-97ec-c705f4c64135))
     (pad "16" smd rect (at 2.712 -4.445 90) (size 0.65 1.525) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "V+") (pinfunction "V_{CC}") (pintype "power_in") (tstamp 544b2526-eade-4462-9ab0-03457ed66148))
-    (model "C:\\Users\\idragomi\\OneDrive - Analog Devices, Inc\\Documents\\kicad-libs\\SamacSys_Parts.3dshapes\\MAX4583ESE+T.stp"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
