@@ -3,4 +3,5 @@
   (lib (name "mylib")(type "KiCad")(uri "${KIPRJMOD}/../symbols/mylib.kicad_sym")(options "")(descr ""))
   (lib (name "ASMB-UTF0-0D20B")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ASMB-UTF0-0D20B.kicad_sym")(options "")(descr ""))
   (lib (name "ADALM2000_Connector")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ADALM2000_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX4619CPE+")(type "KiCad")(uri "C:/Users/idragomi/OneDrive - Analog Devices, Inc/Documents/ioan-analog/projects/FAE Workshop/repo/symbols/MAX4619CPE+.kicad_sym")(options "")(descr ""))
 )
