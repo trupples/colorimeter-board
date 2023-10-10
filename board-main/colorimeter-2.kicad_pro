@@ -476,6 +476,10 @@
       {
         "netclass": "Power",
         "pattern": ".*Q\\d-E.*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/LEDSink"
       }
     ]
   },
