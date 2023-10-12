@@ -2350,13 +2350,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "B1" (shape input) (at 200.66 93.98 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1074665d-50fb-4c59-9c02-780b9c645ede)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.1953 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "13" (shape input) (at 231.14 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 115f8996-4de1-4f68-be29-844fcd79a7f6)
@@ -2511,6 +2504,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "B1" (shape input) (at 200.66 91.44 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3c8b9dbd-4b8c-4dee-a2bc-fd3cfab5a0ef)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.1953 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "5" (shape input) (at 43.18 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3d26b875-faaf-4205-ab5e-7c0336c344fb)
@@ -2613,6 +2613,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5e771f71-5908-4e7b-a7be-04a5f0c95083)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 22.5358 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Bsw" (shape input) (at 200.66 93.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5ea9483d-303b-4110-a953-b8514415412b)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.0462 93.98 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2838,13 +2845,6 @@
     (uuid add9f7fa-4822-436e-87c0-4bd6d6f2d4cd)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 91.44 96.1353 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Bsw" (shape input) (at 200.66 91.44 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b2f16640-f437-4505-b31b-b67ff62def57)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 194.0462 91.44 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "3" (shape input) (at 43.18 54.61 0) (fields_autoplaced)
@@ -3128,8 +3128,8 @@
     (property "Datasheet" "~" (at 250.19 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0337984-ee09-4d8d-b258-8053e30be66b))
-    (pin "2" (uuid ce8ca6c1-37ac-4fa4-9de0-e4a9ab582220))
+    (pin "1" (uuid 83f34017-12b4-4789-ac20-bcd74a8ede7f))
+    (pin "2" (uuid 825a2320-6857-4f1e-966a-0e8928ac9a44))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3179,8 +3179,8 @@
     (property "Datasheet" "~" (at 250.19 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1170fc3a-ccfb-41f1-a7a0-d1cc5b783105))
-    (pin "2" (uuid 30517ae3-99df-4fbe-95f1-099ff73dd577))
+    (pin "1" (uuid 2f5d08ed-ef9f-4ae6-a0d7-19159f01cf2c))
+    (pin "2" (uuid 200456fe-88ed-4c09-bf57-0d0fb1231ca9))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3256,8 +3256,8 @@
     (property "Datasheet" "~" (at 143.51 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3634a6b5-e5b5-4387-bbb5-526bb2208626))
-    (pin "2" (uuid 90787294-822a-4905-ae7c-fd852cea8dfe))
+    (pin "1" (uuid 6c5d35a5-3693-45a4-ae9d-81dd5d8398a3))
+    (pin "2" (uuid 552520c1-3672-4083-b366-ae719cdeb982))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3391,8 +3391,8 @@
     (property "Datasheet" "~" (at 157.48 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d75e36c-ec9d-4e17-a2d5-6707f6e9ebb7))
-    (pin "2" (uuid c186e457-2f40-4669-b65b-f0fee3a87ea8))
+    (pin "1" (uuid 71d4c2ad-cd32-4608-b4e0-2b69997db473))
+    (pin "2" (uuid af189483-8d5f-46e0-bc25-b589234c4295))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3443,8 +3443,8 @@
     (property "Datasheet" "~" (at 241.3 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b8bb6c6-0924-4f1b-b0a0-b6091d834a53))
-    (pin "2" (uuid 9758aca9-976c-442e-928f-c1b58643a466))
+    (pin "1" (uuid 1c2433a6-e395-4a46-ad76-ae764c983682))
+    (pin "2" (uuid c0695d9b-581f-4100-b089-992460ef0278))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3469,8 +3469,8 @@
     (property "Datasheet" "~" (at 236.22 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64863d67-d072-4fc0-9f94-bb9cdc77927d))
-    (pin "2" (uuid 08d5ea98-26a1-494e-a6a8-1e7a88df4f7c))
+    (pin "1" (uuid 2fe8ceaf-1f2e-4ad6-8ed4-ebfbe5205e2b))
+    (pin "2" (uuid 7a902f16-f274-4cd0-8cbe-940ba44ab744))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3570,8 +3570,8 @@
     (property "Datasheet" "~" (at 157.48 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05a345e0-193f-4a05-ae13-acd851c05d86))
-    (pin "2" (uuid 2f316099-f8dd-45ad-b339-eed3bfc18231))
+    (pin "1" (uuid d203d615-e5c4-49ff-9fc7-186efa2e9c88))
+    (pin "2" (uuid 410c8d97-e615-4bdc-81ef-7b6a9b100d78))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3785,14 +3785,14 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf" (at 246.38 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10e87d50-c026-4ac1-8086-0b7957181d36))
-    (pin "2" (uuid 5e670ad4-155b-49a5-9fa6-b9934584f72c))
-    (pin "3" (uuid 0268a78b-e462-4e9b-a749-9c7c4c7e4eb0))
-    (pin "5" (uuid 62eeefd5-dfda-41a3-bb7c-f78d2acb75a2))
-    (pin "6" (uuid 800c7e3a-25b0-45e1-a0f0-2b88a914bf77))
-    (pin "7" (uuid 0f39f87d-b919-4aad-94a7-c89943c72d24))
-    (pin "4" (uuid c82993eb-c6a8-4f6b-a6f8-9594fe1ed9fa))
-    (pin "8" (uuid 9574916a-af25-4d46-9d80-cf48cd740349))
+    (pin "1" (uuid 5609b3c4-9b7b-4f73-aba5-80b96dd310ff))
+    (pin "2" (uuid 6cec0fcf-005f-4416-9638-efbb630848ad))
+    (pin "3" (uuid 40589ba5-922d-4f58-b673-27fe55b32248))
+    (pin "5" (uuid 42d52121-18f8-4e15-b601-11b4ab5bb8ff))
+    (pin "6" (uuid 5b0845cb-1b1a-43c0-9693-dab87de716aa))
+    (pin "7" (uuid edb5a80f-77e5-40f3-8540-63969fd32aa2))
+    (pin "4" (uuid a426965b-8be2-4248-a066-c41c25f387ec))
+    (pin "8" (uuid b4d447c3-141d-46b2-896c-b5261da2822f))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3817,7 +3817,7 @@
     (property "Datasheet" "" (at 121.92 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 729b4ebd-30ab-448d-8487-79e1afb7cb1b))
+    (pin "1" (uuid 564e3eed-bc2b-4d1d-b36e-8c95246a763d))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3842,8 +3842,8 @@
     (property "Datasheet" "~" (at 157.48 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e6b1a77-dab8-42d3-8379-3dfeebafc44e))
-    (pin "2" (uuid 1281b286-e2d9-47c4-b1bb-46593cdf1076))
+    (pin "1" (uuid 252afe32-04ac-4330-a1f5-0a33fd5c084c))
+    (pin "2" (uuid 51d31ef4-8f54-4604-a37f-811d7374dae2))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3868,9 +3868,9 @@
     (property "Datasheet" "" (at 212.09 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c466739b-7a7f-46f6-bce5-b54af892eb4f))
-    (pin "2" (uuid 3209c152-46f9-412d-b3eb-fbdf09d4282a))
-    (pin "3" (uuid 055bd694-08cf-4631-9480-aa4b548b0f7e))
+    (pin "1" (uuid 022a00cb-2098-4fcd-996d-823cae2273ae))
+    (pin "2" (uuid 4379ae94-6779-41d6-a415-c815cf2f04a3))
+    (pin "3" (uuid 43e3ca02-349f-4687-ac8f-058f0d947bc7))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3921,7 +3921,7 @@
     (property "Datasheet" "" (at 140.97 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cc05026-1676-4ccf-bd90-6b8bf4983e0c))
+    (pin "1" (uuid ea66c250-7a74-4201-b3ec-d8eb14d6f385))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -3996,8 +3996,8 @@
     (property "Datasheet" "~" (at 241.3 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 766b3d68-713d-4bbd-857c-2127b7246494))
-    (pin "2" (uuid 5017619b-acfe-4172-978b-4c3e62130c2f))
+    (pin "1" (uuid 93dfcef9-c1fc-4510-8800-b85f8b64b702))
+    (pin "2" (uuid 24cc9efe-18b9-4ec3-862e-d22270a7ca85))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4022,7 +4022,7 @@
     (property "Datasheet" "" (at 233.68 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9b52330-e891-4145-8b97-9bec9de23548))
+    (pin "1" (uuid 8b3e79ee-0f2b-4795-ad5f-2500406e7348))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4098,7 +4098,7 @@
     (property "Datasheet" "" (at 214.63 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f345eeef-d889-48c0-bb7d-d6d2f2144d4c))
+    (pin "1" (uuid d40444d4-faad-4b1d-80de-f25df2ee0472))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4255,9 +4255,9 @@
     (property "Datasheet" "" (at 119.38 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b23da235-cab5-408a-87b4-922d2e330355))
-    (pin "2" (uuid 39ea760f-422b-4710-8c66-49918d2385c1))
-    (pin "3" (uuid 5bb13e42-3f95-4699-9b63-f2036c267e3e))
+    (pin "1" (uuid 70d42fef-38d0-4270-a5be-47cba317114d))
+    (pin "2" (uuid 07dea0ec-8df4-43ca-976c-8eaa06219d9f))
+    (pin "3" (uuid 9e150873-332e-4585-9f1b-a96e0b38394b))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4518,8 +4518,8 @@
     (property "Datasheet" "~" (at 250.19 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cdc36847-daf8-47f0-8be3-4a8aa33a3ddb))
-    (pin "2" (uuid a550cfe9-0811-485c-9d2d-e73943b41ac3))
+    (pin "1" (uuid 143e5e5b-74db-4df2-8f90-0487d94061a4))
+    (pin "2" (uuid f2b61024-9056-4d33-a2d7-42dcb5f9ea1e))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4544,14 +4544,14 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9730c002-fb74-479b-a862-a059294eaed7))
-    (pin "2" (uuid 6ad94f50-ce34-4b22-8f98-73e94112bb3d))
-    (pin "3" (uuid 31af3682-985c-4e86-be4c-0a29850c208c))
-    (pin "5" (uuid e101da1b-6d4e-4ebd-b237-158ada060f0f))
-    (pin "6" (uuid 1b99208b-f8a6-4804-b420-be2713b51f5c))
-    (pin "7" (uuid 7cb60784-4baf-4c63-8771-62fe51b47259))
-    (pin "4" (uuid d942802c-4d02-4660-9d31-ce1db4aaf9a9))
-    (pin "8" (uuid b73577f0-ab60-4088-940c-dacf64c7abfd))
+    (pin "1" (uuid 44a7c30b-a9a9-4a54-8bae-ff486717e608))
+    (pin "2" (uuid 639a7dff-85cb-4784-aed9-8d7c264d2a7c))
+    (pin "3" (uuid b419ad20-1342-4821-ab1f-e678becb82b5))
+    (pin "5" (uuid b86d27cc-6020-4378-a3ec-d170d06865e2))
+    (pin "6" (uuid f86e42f3-15dd-4a8e-a7e3-e3fc784bc00f))
+    (pin "7" (uuid 400f89d9-de00-4ca1-8218-0412788b1d2e))
+    (pin "4" (uuid ebe38182-31bd-4428-b884-3ef8dfbc6cd5))
+    (pin "8" (uuid 11dcbc18-7ca4-464d-beb4-08f826b095b5))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4603,8 +4603,8 @@
     (property "Datasheet" "~" (at 250.19 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6163ecc-40fe-4e45-a648-e61b2c87f3fe))
-    (pin "2" (uuid c0146270-d6c7-431f-a577-b23a246d5663))
+    (pin "1" (uuid 7f400af8-2541-42a7-aeac-0587a8f97b14))
+    (pin "2" (uuid 4a4e268a-09fb-48e9-8b1b-e7dbd38834ef))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4679,8 +4679,8 @@
     (property "Datasheet" "~" (at 231.14 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5713884-479e-4d87-85b0-e843fec70cb9))
-    (pin "2" (uuid 4e4e4eef-48d2-469a-b543-08a47dfe9ee1))
+    (pin "1" (uuid 1ee87837-e6bb-414a-a77d-a6f8daaf527b))
+    (pin "2" (uuid 65e9af5b-8c07-4e34-bcda-0b72c1e8993d))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4762,8 +4762,8 @@
     (property "Datasheet" "~" (at 148.59 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00a91561-1c57-42b1-a402-289e7e6afefa))
-    (pin "2" (uuid 801c1a61-9e85-48c0-9bff-c73584e621ac))
+    (pin "1" (uuid 2cac1766-54d2-4d03-a832-a5c08b881594))
+    (pin "2" (uuid 4d41833c-bad8-4f3a-a7f1-68d18576ad99))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4813,8 +4813,8 @@
     (property "Datasheet" "~" (at 148.59 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2e4c071-9a12-4e7f-8c7d-fa8b8fb73d45))
-    (pin "2" (uuid 33ce8447-5858-4186-a801-df75168fa640))
+    (pin "1" (uuid 98e572dd-8317-4b9c-a6f7-e1182a400671))
+    (pin "2" (uuid 189440e6-8d12-4571-9676-6fe2937c1434))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4839,8 +4839,8 @@
     (property "Datasheet" "~" (at 157.48 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63dddac4-7de0-4662-a304-269775a6fbd0))
-    (pin "2" (uuid b047d5d9-d09e-4cd0-8d74-ca5513d8c021))
+    (pin "1" (uuid 72e91ca2-aa07-42b2-b810-1487c685e745))
+    (pin "2" (uuid c5f45a7e-9bac-4a36-a5d1-fc7262784d60))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -4995,7 +4995,7 @@
     (property "Datasheet" "" (at 114.3 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c719448b-0d77-4b69-ac9f-43ec292416e1))
+    (pin "1" (uuid f054ac7c-52e7-4e47-b0a0-ccdd811b5e68))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
@@ -5046,8 +5046,8 @@
     (property "Datasheet" "~" (at 138.43 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2914e3e1-3610-48db-a720-01c2eff8b1ae))
-    (pin "2" (uuid c63e2052-7db5-41cc-9a98-3d40a0c16e60))
+    (pin "1" (uuid be06b913-a5ab-4d74-bba7-f023ccb00111))
+    (pin "2" (uuid f704c2e3-0716-4ba1-a45d-a5c228c837ee))
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
