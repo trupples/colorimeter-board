@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*
+G04 #@! TF.CreationDate,2023-10-13T18:17:16+03:00*
+G04 #@! TF.ProjectId,colorimeter-led,636f6c6f-7269-46d6-9574-65722d6c6564,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.6) date 2023-10-13 18:17:16*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,1.000000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X88900000Y-63500000D02*
+X112395000Y-63500000D01*
+X112395000Y-72390000D01*
+X88900000Y-72390000D01*
+X88900000Y-63500000D01*
+M02*
