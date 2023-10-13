@@ -2302,6 +2302,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 8b33f48b-c9e9-412b-b819-48aa433c137f)
   )
+  (text_box "N.C. pin corresponds to the V_{EE} pin in compatible ICs (like MAX4583, CD4053)"
+    (at 218.44 113.03 0) (size 22.86 10.16)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid ba255ef7-e15f-456c-b1a4-36d3b50e5cdd)
+  )
   (text_box "Current mirror; regulates 20mA on all LED channels"
     (at 217.17 152.4 0) (size 20.32 7.62)
     (stroke (width -0.0001) (type default))
@@ -3726,7 +3733,7 @@
   (symbol (lib_id "MAX4619CPE+:MAX4619CPE+") (at 214.63 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 570182f6-b4a0-486f-a36f-30c6485517b5)
-    (property "Reference" "C7" (at 229.87 85.09 0)
+    (property "Reference" "U2" (at 229.87 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "MAX4619CPE+" (at 229.87 87.63 0)
@@ -3772,7 +3779,7 @@
     (instances
       (project "colorimeter-2"
         (path "/dfc531c0-ea48-4928-a6a1-03160252b35e"
-          (reference "C7") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
