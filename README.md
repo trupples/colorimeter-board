@@ -1,3 +1,7 @@
+# ARCHIVED, NOT THE LATEST REVISION OF THE M2K COLORIMETER BOARD
+
+This repo contains the first revision of the board. It has since been moved to [analogdevicesinc/education_tools](https://github.com/analogdevicesinc/education_tools).
+
 # Two channel colorimeter
 
 Folders:
